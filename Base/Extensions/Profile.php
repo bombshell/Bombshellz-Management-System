@@ -16,71 +16,9 @@
 	
 ***/
 
-class BMS_Core extends Framework
+class Profile
 {
-	public $loadedExtensions;
 	
-	public function __construct()
-	{
-		global $BMS_CFG, $BMS_PATH;
-		
-		/* Init LightJet2 framework */
-		parent::__construct( $BMS_PATH[ 'LightJetConfig' ] );
-		$this->setDebug( $BMS_CFG[ 'Debug' ] );
-		/* Load Extensions */
-		if ( !empty( $BMS_CFG[ 'Extensions' ] ) )
-			if ( is_array( $BMS_CFG[ 'Extensions' ] ) ) {
-				$path_ext = BMS_PATH_BASE . path_rewrite( 'Base/Extensions/' );
-				foreach( $BMS_CFG[ 'Extensions' ] as $file ) {
-					$path = $path_ext . $file;
-					if ( !file_exists( $path ) ) {
-						if ( $this->getDebugLevel() >= 1 ) 
-							$this->printf( "Error: Extension not loaded: $path" );
-					} else 
-						require $path;
-				}
-		
-			}
-	}
-	
-	/**
-	 * 
-	 * Initialize class in BMS object scope
-	 * @param (string) $class Class Name
-	 * 
-	 */
-	public function initExtension( $class )
-	{
-		if ( class_exists( $class ) ) {
-			$this->$class = new $class;
-			if ( $this->debug >= 1 )
-				$this->printf( "Notice: Extension $class loaded" );
-			$this->loadedExtensions[ $class ] = $this->$class->description;
-		}
-	}
-	
-	/**
-	 * 
-	 * Converts Unix Epoch TimeStamp into human readable format
-	 * @param (int) $time timestamp returned by time()
-	 * 
-	 */
-	public function timeToStr( $time )
-	{
-		return date( 'm/d/Y h:i:s A' , $time );
-	}
-	
-	/**
-	 * 
-	 * Prints a formatted string
-	 * @param (string) $str
-	 * 
-	 */
-	public function printf( $str )
-	{
-		if ( $this->getSapi() == 'cli' )
-			fwrite( STDOUT , $str . "\n" );
-	}
 }
 
-$BMS = new BMS_Core();
+$BMS->initExtension( 'Profile' );

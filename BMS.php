@@ -16,4 +16,84 @@
 	
 ***/
 
+if ( file_exists( 'CustomInitHook.php' ) )
+	require( 'CustomInitHookBefore.php' );
+	
+/*** FUNCTIONS ***/
+function load_extension( $ext )
+{
+	require BMS_PATH_BASE . path_rewrite( 'Base/Extensions/' . $ext );
+	
+}
+
+function bms_quit( $errorMsg )
+{
+	global $BMS_CFG, $BMS;
+	$BMS->printError( 'ERR0000' , $errorMsg , 'Bombshellz Management System' );
+}
+
+function bms_std()
+{
+	if ( !is_resource( STDIN ) ) {
+		$stdin = fopen( 'php://stdin' , 'r' );
+		define( 'STDIN' , $stdin );
+	}
+	if ( !is_resource( STDOUT ) ) {
+		$stdin = fopen( 'php://stdout' , 'w' );
+		define( 'STDOUT' , $stdin );
+	}
+	if ( !is_resource( STDERR ) ) {
+		$stdin = fopen( 'php://stderr' , 'w' );
+		define( 'STDERR' , $stdin );
+	}
+}
+
 /*** Initialize BMS ***/
+
+/* Load BMS Configuration */
+if ( is_file( '.local' ) ) 
+	require 'LocalSettings.php';
+else 
+	require 'DefaultSettings.php';
+/* Load Lightjet class */
+require $BMS_PATH[ 'LightJet' ] . 'main.php';
+
+
+/* Default values */
+if ( empty( $BMS_PATH[ 'Base' ] ) ) {
+	$BMS_PATH[ 'Base' ] = dirname( __FILE__ ) . DS;
+}
+
+define( 'BMS_PATH_BASE' , path_rewrite( $BMS_PATH[ 'Base' ] ) );
+define( 'BMS_PATH_LIBRARY' , BMS_PATH_BASE . 'Library' . DS );
+define( 'BMS_ERROR' , 'Error: ' );
+
+/* This only supports *Nix environments, since I'm not checking for other type of slashes 
+ *  Check if the begining slash is present */
+if ( !preg_match( '/^\//' , $BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] ) ) {
+	$BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] = BMS_PATH_BASE . $BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ];
+}
+
+/*** Load API ***/
+require BMS_PATH_BASE . path_rewrite( 'Base/Core.php' );
+/* Series of checks in CLI mode */
+if ( $BMS->getSapi() == 'cli' ) {
+	bms_std();
+	if ( $_SERVER[ 'USER' ] != 'root' ) 
+		bms_quit( BMS_ERROR . 'BMS needs to be run as root' );
+}
+
+/*** Database Connection ***/
+$BMS->loadClass( 'DatabasePDO' );
+$BMS_DB[ 'Admin' ]  = new Database( array( 'dbType' => 'sqlite' , 'dbPath' => $BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] ) );
+
+$connectOptions[ 'dbType' ] = 'mysql';
+$connectOptions[ 'dbPath' ] = $BMS_CFG[ 'Database' ][ 'Client' ][ 'Location' ];
+$connectOptions[ 'dbName' ] = $BMS_CFG[ 'Database' ][ 'Client' ][ 'Name' ];
+$connectOptions[ 'dbUser' ] = $BMS_CFG[ 'Database' ][ 'Client' ][ 'Username' ]; 
+$connectOptions[ 'dbPass' ] = $BMS_CFG[ 'Database' ][ 'Client' ][ 'Password' ];
+$BMS_DB[ 'Client' ] = new Database( $connectOptions );
+/* Verify if the connection was made */
+if ( $BMS_DB[ 'Client' ]->errorId == 'ERR0403' ) {
+	bms_quit( BMS_ERROR . 'Unable to establish a connection to client database: ' . $BMS_DB[ 'Client' ]->errorMsg );
+}

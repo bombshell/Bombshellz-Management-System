@@ -16,71 +16,17 @@
 	
 ***/
 
-class BMS_Core extends Framework
-{
-	public $loadedExtensions;
-	
-	public function __construct()
-	{
-		global $BMS_CFG, $BMS_PATH;
-		
-		/* Init LightJet2 framework */
-		parent::__construct( $BMS_PATH[ 'LightJetConfig' ] );
-		$this->setDebug( $BMS_CFG[ 'Debug' ] );
-		/* Load Extensions */
-		if ( !empty( $BMS_CFG[ 'Extensions' ] ) )
-			if ( is_array( $BMS_CFG[ 'Extensions' ] ) ) {
-				$path_ext = BMS_PATH_BASE . path_rewrite( 'Base/Extensions/' );
-				foreach( $BMS_CFG[ 'Extensions' ] as $file ) {
-					$path = $path_ext . $file;
-					if ( !file_exists( $path ) ) {
-						if ( $this->getDebugLevel() >= 1 ) 
-							$this->printf( "Error: Extension not loaded: $path" );
-					} else 
-						require $path;
-				}
-		
-			}
-	}
-	
-	/**
-	 * 
-	 * Initialize class in BMS object scope
-	 * @param (string) $class Class Name
-	 * 
-	 */
-	public function initExtension( $class )
-	{
-		if ( class_exists( $class ) ) {
-			$this->$class = new $class;
-			if ( $this->debug >= 1 )
-				$this->printf( "Notice: Extension $class loaded" );
-			$this->loadedExtensions[ $class ] = $this->$class->description;
-		}
-	}
-	
-	/**
-	 * 
-	 * Converts Unix Epoch TimeStamp into human readable format
-	 * @param (int) $time timestamp returned by time()
-	 * 
-	 */
-	public function timeToStr( $time )
-	{
-		return date( 'm/d/Y h:i:s A' , $time );
-	}
-	
-	/**
-	 * 
-	 * Prints a formatted string
-	 * @param (string) $str
-	 * 
-	 */
-	public function printf( $str )
-	{
-		if ( $this->getSapi() == 'cli' )
-			fwrite( STDOUT , $str . "\n" );
-	}
-}
+$BMS_CFG[ 'Debug' ] = 2;
+$BMS_PATH[ 'LightJet' ] = '/root/Mounts/G/Default/Workspace/LightJet2/'; /* This setting is required , it's your responsibility to verify that the path is valid */
+$BMS_PATH[ 'LightJetConfig' ] = '/root/Mounts/G/Default/Workspace/BMS1/Config/LightJet2/BMS_local.php';
 
-$BMS = new BMS_Core();
+$BMS_PATH[ 'Base' ] = '';  /* The base path of Bombshellz Management System , Optional */
+
+$BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] = 'Database/BMSAdmin.sdb'; /* If you omit the begining slash, then it's relative to Base Path, otherwise, provide a full path to the database file */
+
+$BMS_CFG[ 'Database' ][ 'Client' ][ 'Location' ] = 'localhost';
+$BMS_CFG[ 'Database' ][ 'Client' ][ 'Name' ]     = 'bmsdb';
+$BMS_CFG[ 'Database' ][ 'Client' ][ 'Username' ] = 'bmsuser';
+$BMS_CFG[ 'Database' ][ 'Client' ][ 'Password' ] = 'Dic20034@';
+
+$BMS_CFG[ 'Extensions' ][] = 'Email.php';
