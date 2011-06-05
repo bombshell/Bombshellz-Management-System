@@ -16,19 +16,11 @@
 	
 ***/
 
-$BMS_CFG[ 'Debug' ] = 2;
-$BMS_PATH[ 'LightJet' ] = '/root/Mounts/G/Default/Workspace/LightJet2/'; /* This setting is required , it's your responsibility to verify that the path is valid */
-$BMS_PATH[ 'LightJetConfig' ] = '/root/Mounts/G/Default/Workspace/BMS1/Config/LightJet2/BMS_local.php';
-
-$BMS_PATH[ 'Base' ] = '';  /* The base path of Bombshellz Management System , Optional */
-
-$BMS_CFG[ 'Valid_Image_FileExtensions' ] = 'jpg,jpeg,png'; /* Separate Extensions with a comma */
-$BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] = 'Database/BMSAdmin.sdb'; /* If you omit the begining slash, then it's relative to Base Path, otherwise, provide a full path to the database file */
-
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Location' ] = 'localhost';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Name' ]     = 'bmsdb';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Username' ] = 'bmsuser';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Password' ] = 'Dic20034@';
-
-$BMS_CFG[ 'Extensions' ][] = 'Email.php';
-$BMS_CFG[ 'Extensions' ][] = 'Html.php';
+/*** DO NOT MODIFY THESE LINES ***/
+define( 'BMS_PATH_WEBUI' , BMS_PATH_LIBRARY . path_rewrite( 'UI/WebUI/' ) );
+if ( isset( $_GET[ 'media' ] ) ) {
+	require BMS_PATH_WEBUI . 'media.php';
+	exit;
+}
+$BMS->Html->head();
+/*** DO NOT MODIFY THESE LINES ***/

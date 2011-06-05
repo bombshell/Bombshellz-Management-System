@@ -51,7 +51,7 @@ function bms_std()
 /*** Initialize BMS ***/
 
 /* Load BMS Configuration */
-if ( is_file( '.local' ) ) 
+if ( is_file( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . '.local' ) ) 
 	require 'LocalSettings.php';
 else 
 	require 'DefaultSettings.php';
@@ -64,8 +64,10 @@ if ( empty( $BMS_PATH[ 'Base' ] ) ) {
 	$BMS_PATH[ 'Base' ] = dirname( __FILE__ ) . DS;
 }
 
+define( 'BMS_NAME' , 'Bombshell Management System' );
+define( 'BMS_VER' , 'v1.0.0' );
 define( 'BMS_PATH_BASE' , path_rewrite( $BMS_PATH[ 'Base' ] ) );
-define( 'BMS_PATH_LIBRARY' , BMS_PATH_BASE . 'Library' . DS );
+define( 'BMS_PATH_LIBRARY' , BMS_PATH_BASE . path_rewrite( 'Library/' ) );
 define( 'BMS_ERROR' , 'Error: ' );
 
 /* This only supports *Nix environments, since I'm not checking for other type of slashes 
@@ -83,6 +85,7 @@ if ( $BMS->getSapi() == 'cli' ) {
 		bms_quit( BMS_ERROR . 'BMS needs to be run as root' );
 }
 
+/***  ***/
 /*** Database Connection ***/
 $BMS->loadClass( 'DatabasePDO' );
 $BMS_DB[ 'Admin' ]  = new Database( array( 'dbType' => 'sqlite' , 'dbPath' => $BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] ) );

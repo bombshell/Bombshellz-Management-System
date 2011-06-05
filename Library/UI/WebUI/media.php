@@ -16,19 +16,20 @@
 	
 ***/
 
-$BMS_CFG[ 'Debug' ] = 2;
-$BMS_PATH[ 'LightJet' ] = '/root/Mounts/G/Default/Workspace/LightJet2/'; /* This setting is required , it's your responsibility to verify that the path is valid */
-$BMS_PATH[ 'LightJetConfig' ] = '/root/Mounts/G/Default/Workspace/BMS1/Config/LightJet2/BMS_local.php';
-
-$BMS_PATH[ 'Base' ] = '';  /* The base path of Bombshellz Management System , Optional */
-
-$BMS_CFG[ 'Valid_Image_FileExtensions' ] = 'jpg,jpeg,png'; /* Separate Extensions with a comma */
-$BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] = 'Database/BMSAdmin.sdb'; /* If you omit the begining slash, then it's relative to Base Path, otherwise, provide a full path to the database file */
-
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Location' ] = 'localhost';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Name' ]     = 'bmsdb';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Username' ] = 'bmsuser';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Password' ] = 'Dic20034@';
-
-$BMS_CFG[ 'Extensions' ][] = 'Email.php';
-$BMS_CFG[ 'Extensions' ][] = 'Html.php';
+$path = $BMS->sanitazePath( $_GET[ 'media' ] );
+if ( preg_match( '/(.css)$/' , $path ) ) {
+	$path = BMS_PATH_WEBUI . path_rewrite( 'Css/' . $path );
+	if ( file_exists( $path ) ) {
+		header( "Content-type: text/css" );
+		print $BMS->fileRead( $path );
+	}
+} elseif ( preg_match( '/(.js)$/' , $path ) ) {
+	$path = BMS_PATH_WEBUI . path_rewrite( 'JavaScript/' . $path );
+	if ( file_exists( $path ) ) {
+		/* TODO Detect browser and send the proper header */
+		header( 'Content-type: text/javascript' );
+		print $BMS->fileRead( $path );
+	}
+} else {
+	$ext = str_replace( '' , '' , $BMS_CFG[ 'Valid_Image_FileExtensions' ] );
+}

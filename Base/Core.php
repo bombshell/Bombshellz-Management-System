@@ -28,6 +28,7 @@ class BMS_Core extends Framework
 		parent::__construct( $BMS_PATH[ 'LightJetConfig' ] );
 		$this->setDebug( $BMS_CFG[ 'Debug' ] );
 		/* Load Extensions */
+		$BMS = $this;
 		if ( !empty( $BMS_CFG[ 'Extensions' ] ) )
 			if ( is_array( $BMS_CFG[ 'Extensions' ] ) ) {
 				$path_ext = BMS_PATH_BASE . path_rewrite( 'Base/Extensions/' );
@@ -55,8 +56,20 @@ class BMS_Core extends Framework
 			$this->$class = new $class;
 			if ( $this->debug >= 1 )
 				$this->printf( "Notice: Extension $class loaded" );
-			$this->loadedExtensions[ $class ] = $this->$class->description;
+			$this->loadedExtensions[ $class ] = $this->$class->discription;
 		}
+	}
+	
+	/**
+	 * 
+	 * Initialize LightJet Classes
+	 * @param (string) $class
+	 */
+	public function initClass( $class )
+	{
+		$this->loadClass( $class );
+		if ( !is_object( @$this->$class ) )
+			$this->$class = new $class;
 	}
 	
 	/**
@@ -80,6 +93,19 @@ class BMS_Core extends Framework
 	{
 		if ( $this->getSapi() == 'cli' )
 			fwrite( STDOUT , $str . "\n" );
+		else
+			$this->logData( 'ERR0000' , $str );
+	}
+	
+	/**
+	 * 
+	 * Sanitize path to avoid security exploits
+	 * @param (string) $path Path to sanitize
+	 * 
+	 */
+	public function sanitazePath( $path )
+	{
+		return str_replace( array( DS , '.' ) , '' , $path );
 	}
 }
 

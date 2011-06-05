@@ -44,3 +44,75 @@ Date=Fri, 03 Jun 2011 22:48:32 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Succ
 Date=Fri, 03 Jun 2011 22:48:32 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
 Date=Fri, 03 Jun 2011 22:49:02 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
 Date=Fri, 03 Jun 2011 22:49:02 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 19:22:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 19:22:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 19:22:44 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 19:22:44 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:25:04 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:25:04 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:25:04 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:25:04 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:25:40 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:25:40 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:25:40 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:25:40 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:26:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:26:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:26:50 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:26:50 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:29:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:29:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:29:58 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:29:58 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:33:04 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:33:04 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:33:04 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:33:04 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:38:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:38:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:38:55 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:38:55 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:48:10 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:48:10 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:48:10 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 20:48:10 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:16:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:16:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:16:55 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:16:55 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:17:03 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:17:03 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:17:03 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:17:03 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:18:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:18:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:18:21 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:18:21 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:18:53 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:18:53 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:18:53 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:18:53 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:21:30 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:21:30 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:21:30 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:21:30 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:23:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:23:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:23:28 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:23:28 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:24:04 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:24:04 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:24:04 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:24:04 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:41:53 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:41:53 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:41:53 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:41:53 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:42:00 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:42:00 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:42:00 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:42:00 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:42:13 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:42:13 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:42:13 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: sqlite:/root/Mounts/G/Default/Workspace/BMS1/Database/BMSAdmin.sdb, Line=N/A, File=N/A
+Date=Sat, 04 Jun 2011 21:42:13 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
