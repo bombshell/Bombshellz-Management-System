@@ -22,13 +22,20 @@ $BMS_PATH[ 'LightJetConfig' ] = '/root/Mounts/G/Default/Workspace/BMS1/Config/Li
 
 $BMS_PATH[ 'Base' ] = '';  /* The base path of Bombshellz Management System , Optional */
 
-$BMS_CFG[ 'Valid_Image_FileExtensions' ] = 'jpg,jpeg,png'; /* Separate Extensions with a comma */
-$BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] = 'Database/BMSAdmin.sdb'; /* If you omit the begining slash, then it's relative to Base Path, otherwise, provide a full path to the database file */
+/* Image Extensions and MIME */
+$BMS_CFG[ 'Valid_Image_FileExtensions' ][ 'jpg' ]  = 'image/jpeg';
+$BMS_CFG[ 'Valid_Image_FileExtensions' ][ 'jpeg' ] = 'image/jpeg';
+$BMS_CFG[ 'Valid_Image_FileExtensions' ][ 'png' ]  = 'image/png';
 
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Location' ] = 'localhost';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Name' ]     = 'bmsdb';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Username' ] = 'bmsuser';
-$BMS_CFG[ 'Database' ][ 'Client' ][ 'Password' ] = 'Dic20034@';
+$BMS_CFG[ 'Hash_Algo' ] = 'md5'; /* Possible values are: md5 , sha256 or sha512. Defaults to md5 if the hash algo is missing. See: http://www.php.net/manual/en/function.hash-algos.php */
+
+$BMS_CFG[ 'Database' ][ 'Location' ] = 'localhost';
+$BMS_CFG[ 'Database' ][ 'Name' ]     = 'bmsdb';
+$BMS_CFG[ 'Database' ][ 'Username' ] = 'bmsuser';
+$BMS_CFG[ 'Database' ][ 'Password' ] = 'Dic20034@';
 
 $BMS_CFG[ 'Extensions' ][] = 'Email.php';
 $BMS_CFG[ 'Extensions' ][] = 'Html.php';
+$BMS_CFG[ 'Extensions' ][] = 'Forms.php';
+$BMS_CFG[ 'Extensions' ][] = 'Profile.php';
+$BMS_CFG[ 'Extensions' ][] = 'Session.php';

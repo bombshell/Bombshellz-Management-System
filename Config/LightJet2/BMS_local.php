@@ -88,7 +88,7 @@ $_CFG[ 'LG_Debug' ] = 2; /* integer */
   
   note: any invalid ip(s) will be ignored
 */
-$_CFG[ 'LG_Safe_Client_IP' ] = "127.0.0.1,192.168.56.1"; /* string */
+$_CFG[ 'LG_Safe_Client_IP' ] = "127.0.0.1,192.168.56.1,::ffff:192.168.56.1"; /* string */
 
 
 /* if set to true, set_path will automatically append _SERVER_ROOT_ to paths

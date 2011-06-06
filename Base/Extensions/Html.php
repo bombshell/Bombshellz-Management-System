@@ -20,6 +20,15 @@ class Html
 {
 	public $discription = 'Provides HTML Support';
 	
+	/**
+	 * 
+	 * Prints the header of the page
+	 * @access Public
+	 * @param (string) $title
+	 * @param (string) $docType Available doctypes are strict, frameset, or default transitional 
+	 * @param (array)  $cssLinks Array of CSS href links pointing .css file
+	 * @param (array)  $javascriptLinks Array of JS href links pointing .css file
+	 */
 	public function head( $title = null , $docType = null , $cssLinks = array() , $javascriptLinks = array() )
 	{
 		global $BMS;
@@ -79,6 +88,33 @@ class Html
 		$head .= "</HEAD>\r\n";
 		print $head;
 	}
+	
+	/**
+	 * 
+	 * Print body
+	 * @param (string) $str
+	 * 
+	 */
+	public function body( $str )
+	{
+		global $BMS_CFG;
+		$body = "<BODY>\r\n";
+		$body .= $str;
+		$body .= "</BODY>\r\n";
+		print $body;
+	}
+	
+	/**
+	 * 
+	 * Prints HTML Footer
+	 * @access Public
+	 * 
+	 */
+	public function footer()
+	{
+		print "\r\n" . '</HTML>';
+	}
+	
 }
 
 $BMS->initExtension( 'Html' );

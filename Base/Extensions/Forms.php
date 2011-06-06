@@ -16,54 +16,63 @@
 	
 ***/
 
-class Profile
+class Forms
 {
-	public $discription = 'Provides Profile Support';
+	public $discription = 'Provides HTML Support';
 	
-	private $profileType;
-	private $currProfile;
-	
-	public function getByName( $bmsuid )
+	public function adminLoginForm()
 	{
-		global $BMS_DB;
+
+$loginForm = <<<EOF
+  <form method="post" action="{$_SERVER[ 'PHP_SELF' ]}">
+  <fieldset>
+   <legend>Login Form</legend>
+   <input type="hidden" name="formType" value="loginForm">
+    <table border="1">
+	<tr>
+	 <td>
+       Admin Username: 
+     </td>
+    </tr>
+    <tr>
+     <td>
+       <input type="text" name="bms_uid" >
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Admin Password
+     </td>	  
+    </tr>
+    <tr>
+     <td>
+       <input type="text" name="bms_pwd" >
+     </td>
+    </tr>
+    <tr>
+     <td cols="2">
+       <input type="submit" value="Login" >
+     </td>
+    </tr>
+   </table>
+ </fieldset>
+ </form>
 		
-		if ( empty( $bmsuid ) )
-			return false;
-			
-		$bmsuid = trim( $bmsuid );
-		if ( @$currProfile[ 'bmsuid' ] != $bmsuid ) {
-			if ( $this->profileType == 'admin' ) {
-				$BMS_DB->setTableName( 'bms_accounts_admin' );
-			} else {
-				$BMS_DB->setTableName( 'bms_accounts' );
-			}
-			$account = $BMS_DB->query( '*' , "WHERE bms_uid = '$bmsuid'" );
-			if ( empty( $account ) )
-				return false;
-			$this->currProfile = $account[0];
+EOF;
+		return $loginForm;
+	}
+	
+	public function processForm( $formType )
+	{
+		if ( method_exists( $this , $formType ) ) {
+			$this->$formType();
 		}
-		return true;
 	}
 	
-	public function setType( $profileType )
+	public function loginForm()
 	{
-		global $BMS_DB;
-		$this->profileType = $profileType;
-	}
-	
-	public function getField( $field )
-	{
-		return $this->currProfile[ $field ];
-	}
-	
-	public function valid()
-	{
-		if ( $this->currProfile[ 'bs_email_valid' ] == 1 
-				&& ( $this->currProfile[ 'bms_account_status' ] != 'Suspended' || $this->currProfile[ 'bms_account_status' ] != 'Inactive' ) ) {
-			return true;
-		}
-		return false;
+		print 'hey';
 	}
 }
 
-$BMS->initExtension( 'Profile' );
+$BMS->initExtension( 'Forms' );

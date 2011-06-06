@@ -16,54 +16,53 @@
 	
 ***/
 
-class Profile
+/* load core class before Session class is initialize */
+$BMS->loadClass( 'Session_Core' );
+
+class Session extends Session_Core
 {
-	public $discription = 'Provides Profile Support';
+	public $discription = "Provides session support";
 	
-	private $profileType;
-	private $currProfile;
-	
-	public function getByName( $bmsuid )
+	public function isAuth()
 	{
-		global $BMS_DB;
+		global $BMS; 
 		
-		if ( empty( $bmsuid ) )
-			return false;
-			
-		$bmsuid = trim( $bmsuid );
-		if ( @$currProfile[ 'bmsuid' ] != $bmsuid ) {
-			if ( $this->profileType == 'admin' ) {
-				$BMS_DB->setTableName( 'bms_accounts_admin' );
-			} else {
-				$BMS_DB->setTableName( 'bms_accounts' );
+		if ( $this->isValid() ) {
+			if ( @$_SESSION[ 'is_auth' ] ) {
+				$BMS->Profile->setType( $_SESSION[ 'profile_type' ] );
+				if ( $BMS->Profile->getByName( $_SESSION[ 'bms_uid' ] ) ) {
+					return true;
+				} else {
+					$_SESSION[ 'is_auth' ] = false;
+					//$this->session->destroy();
+				}
 			}
-			$account = $BMS_DB->query( '*' , "WHERE bms_uid = '$bmsuid'" );
-			if ( empty( $account ) )
-				return false;
-			$this->currProfile = $account[0];
 		}
-		return true;
+		return false;
 	}
 	
-	public function setType( $profileType )
+	public function auth( $bms_uid , $bms_pwd , $authType = null )
 	{
-		global $BMS_DB;
-		$this->profileType = $profileType;
-	}
-	
-	public function getField( $field )
-	{
-		return $this->currProfile[ $field ];
-	}
-	
-	public function valid()
-	{
-		if ( $this->currProfile[ 'bs_email_valid' ] == 1 
-				&& ( $this->currProfile[ 'bms_account_status' ] != 'Suspended' || $this->currProfile[ 'bms_account_status' ] != 'Inactive' ) ) {
-			return true;
+		global $BMS;
+		
+		if ( empty( $bms_uid ) || empty( $bms_pwd ) ) {
+			return false;
 		}
+		
+		/* Pull profile */
+		$BMS->Profile->setType( $authType );
+		$BMS->Profile->getByName( $bms_uid );
+        if ( $BMS->Profile->valid() ) {
+			if ( $BMS->Profile->getField( 'bms_uid' ) == $bms_uid ) {
+				if ( $BMS->hash( $bms_pwd ) == $BMS->Profile->getField( 'bms_pwd' ) ) {
+					$_SESSION[ 'is_auth' ] = true;
+					$_SESSION[ 'profile_type' ] = $authType;
+					return true;
+				}
+			}
+        }
 		return false;
 	}
 }
 
-$BMS->initExtension( 'Profile' );
+$BMS->initExtension( 'Session' );

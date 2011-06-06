@@ -105,7 +105,18 @@ class BMS_Core extends Framework
 	 */
 	public function sanitazePath( $path )
 	{
-		return str_replace( array( DS , '.' ) , '' , $path );
+		return str_replace( '..' . DS , '' , $path );
+	}
+	
+	public function hash( $str )
+	{
+		global $BMS_CFG;
+		
+		if ( !empty( $BMS_CFG[ 'Hash_Algo' ] ) )
+			if ( in_array( $BMS_CFG[ 'Hash_Algo' ] , hash_algos() ) ) {
+				return hash( $BMS_CFG[ 'Hash_Algo' ] , $str );
+			}
+		return false;
 	}
 }
 

@@ -18,9 +18,28 @@
 
 /*** DO NOT MODIFY THESE LINES ***/
 define( 'BMS_PATH_WEBUI' , BMS_PATH_LIBRARY . path_rewrite( 'UI/WebUI/' ) );
+
+if ( !empty( $_POST[ 'formType' ] ) ) {
+	$BMS->Forms->processForm( $_POST[ 'formType' ] );
+	exit;
+}
 if ( isset( $_GET[ 'media' ] ) ) {
 	require BMS_PATH_WEBUI . 'media.php';
 	exit;
 }
 $BMS->Html->head();
+/*** DO NOT MODIFY THESE LINES ***/
+
+if ( !$BMS->Session->isAuth() ) {
+	/* Custom check added*/
+	if ( @$_GET[ 'loginMode' ] == 'admin' && file_exists( BMS_PATH_BASE . '.shell' )) {
+		$body = $BMS->Forms->adminLoginForm();
+	} else {
+			
+	}
+}
+
+$BMS->Html->body( $body );
+/*** DO NOT MODIFY THESE LINES ***/
+$BMS->Html->footer();
 /*** DO NOT MODIFY THESE LINES ***/

@@ -29,7 +29,13 @@ function load_extension( $ext )
 function bms_quit( $errorMsg )
 {
 	global $BMS_CFG, $BMS;
-	$BMS->printError( 'ERR0000' , $errorMsg , 'Bombshellz Management System' );
+	if ( is_object( $BMS ) ) {
+		$BMS->printError( 'ERR0000' , $errorMsg , 'Bombshellz Management System' );
+		$BMS->logData( 'ERR0000' , $errorMsg );
+	} else {
+		print $errorMsg;
+	}
+	exit(1);
 }
 
 function bms_std()
@@ -51,10 +57,12 @@ function bms_std()
 /*** Initialize BMS ***/
 
 /* Load BMS Configuration */
-if ( is_file( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . '.local' ) ) 
+if ( file_exists( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . '.prod' ) ) 
+	require 'DefaultSettings.php';
+elseif ( is_file( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . '.local' ) ) 
 	require 'LocalSettings.php';
 else 
-	require 'DefaultSettings.php';
+	bms_quit( 'Error: Unable to load configuration' );
 /* Load Lightjet class */
 require $BMS_PATH[ 'LightJet' ] . 'main.php';
 
@@ -70,12 +78,6 @@ define( 'BMS_PATH_BASE' , path_rewrite( $BMS_PATH[ 'Base' ] ) );
 define( 'BMS_PATH_LIBRARY' , BMS_PATH_BASE . path_rewrite( 'Library/' ) );
 define( 'BMS_ERROR' , 'Error: ' );
 
-/* This only supports *Nix environments, since I'm not checking for other type of slashes 
- *  Check if the begining slash is present */
-if ( !preg_match( '/^\//' , $BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] ) ) {
-	$BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] = BMS_PATH_BASE . $BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ];
-}
-
 /*** Load API ***/
 require BMS_PATH_BASE . path_rewrite( 'Base/Core.php' );
 /* Series of checks in CLI mode */
@@ -88,15 +90,20 @@ if ( $BMS->getSapi() == 'cli' ) {
 /***  ***/
 /*** Database Connection ***/
 $BMS->loadClass( 'DatabasePDO' );
-$BMS_DB[ 'Admin' ]  = new Database( array( 'dbType' => 'sqlite' , 'dbPath' => $BMS_CFG[ 'Database' ][ 'Admin' ][ 'Location' ] ) );
-
 $connectOptions[ 'dbType' ] = 'mysql';
-$connectOptions[ 'dbPath' ] = $BMS_CFG[ 'Database' ][ 'Client' ][ 'Location' ];
-$connectOptions[ 'dbName' ] = $BMS_CFG[ 'Database' ][ 'Client' ][ 'Name' ];
-$connectOptions[ 'dbUser' ] = $BMS_CFG[ 'Database' ][ 'Client' ][ 'Username' ]; 
-$connectOptions[ 'dbPass' ] = $BMS_CFG[ 'Database' ][ 'Client' ][ 'Password' ];
-$BMS_DB[ 'Client' ] = new Database( $connectOptions );
+$connectOptions[ 'dbPath' ] = $BMS_CFG[ 'Database' ][ 'Location' ];
+$connectOptions[ 'dbName' ] = $BMS_CFG[ 'Database' ][ 'Name' ];
+$connectOptions[ 'dbUser' ] = $BMS_CFG[ 'Database' ][ 'Username' ]; 
+$connectOptions[ 'dbPass' ] = $BMS_CFG[ 'Database' ][ 'Password' ];
+$BMS_DB = new Database( $connectOptions );
 /* Verify if the connection was made */
-if ( $BMS_DB[ 'Client' ]->errorId == 'ERR0403' ) {
+if ( $BMS_DB->errorId == 'ERR0403' ) {
 	bms_quit( BMS_ERROR . 'Unable to establish a connection to client database: ' . $BMS_DB[ 'Client' ]->errorMsg );
+}
+
+//var_dump( $_SERVER[ 'REMOTE_ADDR' ] );
+/* Check for a root admin account */
+$BMS->Profile->setType( 'admin' );
+if ( !$BMS->Profile->getByName( 'root' ) ) {
+	bms_quit( 'Error: Root admin account missing' );
 }

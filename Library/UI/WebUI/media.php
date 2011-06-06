@@ -31,5 +31,23 @@ if ( preg_match( '/(.css)$/' , $path ) ) {
 		print $BMS->fileRead( $path );
 	}
 } else {
-	$ext = str_replace( '' , '' , $BMS_CFG[ 'Valid_Image_FileExtensions' ] );
+	/**/
+	if ( is_array( $BMS_CFG[ 'Valid_Image_FileExtensions' ] ) ) {
+		foreach( $BMS_CFG[ 'Valid_Image_FileExtensions' ] as $ext => $mime ) {
+			if ( preg_match( "/(.$ext)/" , $path ) ) {
+				$path = BMS_PATH_WEBUI . path_rewrite( 'Images/' . $path );
+				if ( file_exists( $path ) ) {
+					header( "Content-Type: $mime" );
+					print $BMS->fileRead( $path );
+					exit;
+				}
+			}
+		}
+		header( 'Status: 404 Not Found' );
+		print 'Not Found';
+	} else {
+		header( 'Status: 404 Not Found' );
+		$BMS->logData( 'ERR0000' , 'Error: No valid image file extensions: returned 404 not found' );
+	}
+	
 }
