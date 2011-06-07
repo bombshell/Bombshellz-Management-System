@@ -29,14 +29,16 @@ if ( isset( $_GET[ 'media' ] ) ) {
 }
 $BMS->Html->head();
 /*** DO NOT MODIFY THESE LINES ***/
-
+var_dump( $_SESSION );
 if ( !$BMS->Session->isAuth() ) {
 	/* Custom check added*/
-	if ( @$_GET[ 'loginMode' ] == 'admin' && file_exists( BMS_PATH_BASE . '.shell' )) {
-		$body = $BMS->Forms->adminLoginForm();
+	if ( @$_GET[ 'loginType' ] == 'admin' || file_exists( BMS_PATH_BASE . '.shell' ) ) {
+		$body = $BMS->Forms->getLoginForm( 'admin' );
 	} else {
-			
+		$body = $BMS->Forms->getLoginForm();	
 	}
+} else {
+	print 'yay';
 }
 
 $BMS->Html->body( $body );

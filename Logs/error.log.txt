@@ -480,3 +480,590 @@ Date=Mon, 06 Jun 2011 18:44:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Exte
 Date=Mon, 06 Jun 2011 18:44:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
 Date=Mon, 06 Jun 2011 18:44:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
 Date=Mon, 06 Jun 2011 18:44:58 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 18:56:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 18:56:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 18:56:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 18:56:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 18:56:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 18:56:35 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:00:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:00:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:00:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:00:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:00:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:00:38 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:25 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:01:50 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:03 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:03 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:03 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:03 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:03 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:03 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:02:11 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:32 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:45 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:55 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:03:55 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:04:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:04:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:04:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:04:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:04:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:04:11 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:15:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:15:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:15:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:15:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:15:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:15:23 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:16:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:16:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:16:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:16:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:16:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:16:50 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:17:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:17:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:17:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:17:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:17:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:17:50 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:18:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:18:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:18:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:18:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:18:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:18:29 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:28 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:20:39 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:25 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:43 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:21:54 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:22:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:22:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:22:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:22:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:22:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:22:06 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:23:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:23:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:23:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:23:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:23:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:23:45 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:24:49 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:24:49 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:24:49 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:24:49 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:24:49 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:24:49 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:25 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:39 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:25:39 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:26:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:26:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:26:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:26:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:26:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:26:22 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:06 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:30:25 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:08 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:08 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:08 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:08 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:08 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:08 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:22 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:22 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:32 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:36 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:36 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:36 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:36 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:36 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:31:36 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:16 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:16 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:16 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:16 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:16 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:16 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:32:26 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:38:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:38:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:39:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:39:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:39:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:39:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:39:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:39:27 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:38 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:40:44 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:42:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:42:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:42:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:42:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:42:29 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:42:29 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:53:01 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:53:01 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:53:01 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:55:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:55:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:55:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:55:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:55:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:55:44 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:56:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:56:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:56:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:56:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:56:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:56:58 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:00 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:00 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:00 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:00 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:00 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:00 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:06 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 19:58:38 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:13 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:13 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:13 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:13 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:13 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:13 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:37 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:37 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:37 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:37 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:37 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:00:37 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:01:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:01:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:01:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:01:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:01:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:01:35 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:05 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:02:06 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:04:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:04:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:04:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:04:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:04:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Mon, 06 Jun 2011 20:04:21 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:21 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:21 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:24 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:27:25 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:11 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:50 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:28:50 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:29:46 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:29:46 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:29:46 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:29:46 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:29:46 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:29:46 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:30:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:30:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:30:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:30:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:30:26 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:30:26 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:31:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:31:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:31:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:31:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:31:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:31:45 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:32:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:32:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:32:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:32:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:32:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:32:24 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:33:42 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:33:42 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:33:42 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:33:42 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:33:42 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:33:42 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:11 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:11 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:30 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:30 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:30 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:30 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:30 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:34:30 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:35:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:35:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:35:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:35:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:35:54 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:35:54 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:36:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:36:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:36:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:36:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:36:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:36:28 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:01 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:01 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:01 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:01 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:01 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:01 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:24 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:24 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:43 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:37:58 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:38:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:38:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:38:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:38:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:38:28 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:38:28 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:39:52 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:40:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:40:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:40:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:40:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:40:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:40:06 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:27 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:34 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:34 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:34 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:34 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:34 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:34 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:35 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:35 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:44 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:44 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:45 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:44:45 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:49:57 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:54:43 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:55:20 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:55:20 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:55:20 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:55:20 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:55:20 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:55:20 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:57:52 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:58:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:58:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:58:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:58:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:58:57 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 07:58:57 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:07:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:07:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:07:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:07:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:07:58 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:07:58 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:08:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:08:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:08:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:08:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:08:06 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:08:06 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:05 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:05 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:09 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:09 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:09 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:09 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:09 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:11:09 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:13:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:13:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:13:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:13:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:13:25 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:13:25 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:23 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:23 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:32 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:32 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:38 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 08:25:38 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:11:07 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:13:12 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:13:12 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:13:12 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:13:12 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:13:12 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:13:12 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Email loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Html loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Forms loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Profile loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=USR, Id=ERR0000, Details=Notice: Extension Session loaded, Line=N/A, File=N/A
+Date=Tue, 07 Jun 2011 16:30:47 -0400, Type=SYS, Id=ERRx0118, Details=Debug: Successful connection to: DSN: mysql:host=localhost;port=3306;dbname=bmsdb, Line=N/A, File=N/A

@@ -20,38 +20,53 @@ class Forms
 {
 	public $discription = 'Provides HTML Support';
 	
-	public function adminLoginForm()
+	public function getLoginForm( $loginType = null )
 	{
-
-$loginForm = <<<EOF
-  <form method="post" action="{$_SERVER[ 'PHP_SELF' ]}">
-  <fieldset>
-   <legend>Login Form</legend>
+		global $BMS;
+		if ( $loginType == 'admin' )
+			$title = 'Administrator';
+		else 
+			$title = 'Client';
+			
+		if ( !empty( $_GET[ 'loginError' ] ) ) {
+			if ( $_GET[ 'loginError' ] == 'invalid' ) {
+				$str = 'Username or Password invalid<br>';
+				$str .= 'Login attempt: /4';
+			}
+			if ( !empty( $str ) )
+				$loginForm = $BMS->Html->errorBox( $str );
+		}
+			
+@$loginForm .= <<<EOF
+  <form method="post" action="{$_SERVER[ 'PHP_SELF' ]}" class="forms font">
+  <fieldset style="width: 205px">
+   <legend>$title Login</legend>
    <input type="hidden" name="formType" value="loginForm">
-    <table border="1">
+   <input type="hidden" name="loginType" value="$loginType">
+    <table border="0" style="width: 200px">
 	<tr>
 	 <td>
-       Admin Username: 
+       Username
      </td>
     </tr>
     <tr>
      <td>
-       <input type="text" name="bms_uid" >
+       <input type="text" size="30" name="bms_uid" >
      </td>
     </tr>
     <tr>
      <td>
-      Admin Password
+      Password
      </td>	  
     </tr>
     <tr>
      <td>
-       <input type="text" name="bms_pwd" >
+       <input type="password" size="30" name="bms_pwd" >
      </td>
     </tr>
     <tr>
-     <td cols="2">
-       <input type="submit" value="Login" >
+     <td cols="2" style="text-align: right;">
+       <input type="submit" value="Login" class="button">
      </td>
     </tr>
    </table>
@@ -71,8 +86,20 @@ EOF;
 	
 	public function loginForm()
 	{
-		print 'hey';
+		global $BMS;
+		
+		$url = $_SERVER[ 'PHP_SELF' ] . '?loginType=' . $_POST[ 'loginType' ];
+		if ( !$BMS->Session->auth( $_POST[ 'bms_uid' ] , $_POST[ 'bms_pwd' ] , $_POST[ 'loginType' ] ) ) {
+			if ( $BMS->Session->errorId == 'ERR0605' )
+				$loginError = 'disabled';
+			else 
+				$loginError = 'invalid';
+			$BMS->Http->redirectClient( $url . '&loginError=' . $loginError );
+		} else {
+			$BMS->Http->redirectClient( $_SERVER[ 'PHP_SELF' ] );
+		}
 	}
 }
 
 $BMS->initExtension( 'Forms' );
+$BMS->initClass( 'Http' );

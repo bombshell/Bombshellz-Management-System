@@ -115,6 +115,16 @@ class Html
 		print "\r\n" . '</HTML>';
 	}
 	
+	public function errorBox( $str )
+	{
+$error_box = <<<EOF
+ <div class="font red_box">
+  $str
+ </div>\r\n
+EOF;
+		return $error_box;
+	}
+	
 }
 
 $BMS->initExtension( 'Html' );

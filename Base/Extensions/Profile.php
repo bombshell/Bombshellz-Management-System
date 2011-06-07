@@ -58,7 +58,11 @@ class Profile
 	
 	public function valid()
 	{
-		if ( $this->currProfile[ 'bs_email_valid' ] == 1 
+		if ( $this->profileType == 'admin' ) {
+			if ( $this->currProfile[ 'bms_account_status' ] != 'Suspended' ) {
+				return true;
+			}
+		} elseif ( $this->currProfile[ 'bms_email_valid' ] == 1 
 				&& ( $this->currProfile[ 'bms_account_status' ] != 'Suspended' || $this->currProfile[ 'bms_account_status' ] != 'Inactive' ) ) {
 			return true;
 		}

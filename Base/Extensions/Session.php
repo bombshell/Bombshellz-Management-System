@@ -23,6 +23,12 @@ class Session extends Session_Core
 {
 	public $discription = "Provides session support";
 	
+	public function __construct()
+	{
+		/* Start Session */
+		parent::__construct();
+	}
+	
 	public function isAuth()
 	{
 		global $BMS; 
@@ -55,11 +61,15 @@ class Session extends Session_Core
         if ( $BMS->Profile->valid() ) {
 			if ( $BMS->Profile->getField( 'bms_uid' ) == $bms_uid ) {
 				if ( $BMS->hash( $bms_pwd ) == $BMS->Profile->getField( 'bms_pwd' ) ) {
-					$_SESSION[ 'is_auth' ] = true;
+					$_SESSION[ 'is_auth' ]      = true;
 					$_SESSION[ 'profile_type' ] = $authType;
+					$_SESSION[ 'bms_uid' ]      = $bms_uid;
 					return true;
 				}
 			}
+        } else {
+        	$this->errorId = 'ERR0605';
+        	$this->errorMsg = 'Profile disabled';
         }
 		return false;
 	}

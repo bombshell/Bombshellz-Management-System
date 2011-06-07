@@ -1,1 +1,38 @@
 @CHARSET "ISO-8859-1";
+
+.font
+{
+	font-family: verdana,news gothic,arial,heltevica,serif;
+}
+
+.forms table td
+{
+	padding: 2px;
+	/*border: 1px solid black; */
+	border-callaps: callaps;
+}
+
+.forms table td input
+{
+	border: 1px gray solid;
+	height: 20px;
+}
+
+.button
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+
+.red_box
+{
+	border: 1px solid red; 
+	border-style: outset; 
+	background-color: red; 
+	color: white; 
+	width: 220px; 
+	padding: 5px;
+	font-size: small;	
+}
